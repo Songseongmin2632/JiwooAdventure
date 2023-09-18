@@ -79,24 +79,21 @@ public class Player extends Character {
 	}
 
 	
-	public void levelUp() { //레벨 업!
-		int[] myLevel = new int[30];
-		for(int i=0; i < myLevel.length; i++) {
-			myLevel[i] = i+1;
-		}
-		for(int i=0; i < 30; i++) {
-			if(myLevel[i]==i+1) {
+	public void levelUp() { //레벨 업!		
+		for(int i=0; i < 29; i++) {
+			if(level == i+1) {
 				if(experience >= 100 + (i * 100)) {
 					System.out.println("Level Up!!");
 					power += 10;
 					attackSpeed += 1;
-					hp += 30;
+					maxHp += 30;
 					level += 1;
 					experience -= 100 + (i * 100);
 				}
 			}
 		}
 	}
+	
 	
 	public void hpSetting() {
 		hp = maxHp;
@@ -119,7 +116,7 @@ public class Player extends Character {
 	}
 	
 	public void hpEnhancement() {
-		hp = hp + 100;
+		maxHp = maxHp + 100;
 	}
 	
 	public void payback(int num) {

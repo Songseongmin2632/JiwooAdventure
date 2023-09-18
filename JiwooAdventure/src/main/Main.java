@@ -14,7 +14,7 @@ public class Main {
 		Color color = new Color();
 		Player player = new Player("지우", 1, 100, 100, 10, 10, 100, 100, 100, 0);
 		Monster monster = new Monster("이슬이", 10, 1, 100);
-		Shop shop = new Shop();
+		Shop shop = new Shop(1);
 		Information infotmation = new Information();
 		Battle battle = new Battle(); 
 		while (true) {

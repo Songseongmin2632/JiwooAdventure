@@ -13,6 +13,7 @@ public class Battle {
 		Scanner sc = new Scanner(System.in);		
 		System.out.println("stage(1~30)를 선택하세요");
 		int input = sc.nextInt();
+		int skillInput;
 				
 		int[] stage = new int[30];
 		for(int i=0; i < stage.length; i++) {
@@ -49,9 +50,9 @@ public class Battle {
 				System.out.println();
 				System.out.println(m.getName()+"의 현재 hp : "+c.RED+m.getHp()+c.RESET);
 				System.out.println("-------------------------------------------------------------------------");
-				input = sc.nextInt();
+				skillInput = sc.nextInt();
 					
-				if(input==1) {
+				if(skillInput==1) {
 					if(p.getMp() < 10) {
 						System.out.println("마나가 부족합니다.");	
 						continue;
@@ -66,7 +67,7 @@ public class Battle {
 					}
 				}
 					
-				if(input==2) {
+				if(skillInput==2) {
 					if(p.getMp() < 15) {
 						System.out.println("마나가 부족합니다.");
 						continue;
@@ -81,7 +82,7 @@ public class Battle {
 					}
 				}
 					
-				if(input==3) {
+				if(skillInput==3) {
 					if(p.getMp() < 15) {
 						System.out.println("마나가 부족합니다.");
 						continue;
@@ -98,7 +99,7 @@ public class Battle {
 					}
 				}
 					
-				if(input==4) {
+				if(skillInput==4) {
 					System.out.println();
 					System.out.println(c.BRED+"지우의 마나회복!!"+c.RESET);
 					System.out.println();
@@ -107,7 +108,7 @@ public class Battle {
 					System.out.println("현재 mp : "+c.BLUE+p.getMp()+c.RESET);
 				}
 					
-				if(input==5) {
+				if(skillInput==5) {
 					int run = (int) (Math.random()*2)+1;
 						
 					if(run==1) {
@@ -244,9 +245,9 @@ public class Battle {
 					System.out.println();
 					System.out.println("도망가기(5)");
 					System.out.println("-------------------------------------------------------------------------");
-					input = sc.nextInt();
+					skillInput = sc.nextInt();
 						
-					if(input==1) {
+					if(skillInput==1) {
 						if(p.getMp() < 10) {
 							System.out.println("마나가 부족합니다.");	
 							continue;
@@ -261,7 +262,7 @@ public class Battle {
 						}
 					}
 						
-					if(input==2) {
+					if(skillInput==2) {
 						if(p.getMp() < 15) {
 							System.out.println("마나가 부족합니다.");
 							continue;
@@ -276,7 +277,7 @@ public class Battle {
 						}
 					}
 						
-					if(input==3) {
+					if(skillInput==3) {
 						if(p.getMp() < 15) {
 							System.out.println("마나가 부족합니다.");
 							continue;
@@ -293,7 +294,7 @@ public class Battle {
 						}
 					}
 						
-					if(input==4) {
+					if(skillInput==4) {
 						System.out.println();
 						System.out.println(c.BRED+"지우의 마나회복!!"+c.RESET);
 						System.out.println();
@@ -302,7 +303,7 @@ public class Battle {
 						System.out.println("현재 mp : "+c.BLUE+p.getMp()+c.RESET);
 					}
 					
-					if(input==5) {
+					if(skillInput==5) {
                         int run = (int) (Math.random()*2)+1;
 						
 						if(run==1) {
@@ -319,13 +320,11 @@ public class Battle {
 				}
 				
 				if(m.getHp() <= 0) {							
-					for(int i=0; i < 30; i++) {
-						p.winningTheBattle(i);
-					}
+					p.winningTheBattle(input - 1);
 					break;
-				}								
+				}
 			}//몬스터 선공 종료
 		} //battle while end
-		p.hpInitialize();		
+		p.hpInitialize();
 	} //battleSet end
 }

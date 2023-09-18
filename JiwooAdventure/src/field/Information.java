@@ -18,9 +18,9 @@ public class Information {
 			System.out.println("|                                          |");
 			System.out.println("| 공격속도 : "+p.getAttackSpeed()+"                              |");
 			System.out.println("|                                          |");
-			System.out.println("| 체력 : "+p.getHp()+"                                |");
+			System.out.println("| 체력 : "+p.getMaxHp()+"                                |");
 			System.out.println("|                                          |");
-			System.out.println("| 마나 : "+p.getMp()+"                                |");
+			System.out.println("| 마나 : "+p.getMaxMp()+"                                |");
 			System.out.println("|                                          |");
 			System.out.println("| 소지금 : "+p.getMoney()+"                               |");
 			System.out.println("|                                          |");

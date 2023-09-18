@@ -5,7 +5,11 @@ import java.util.Scanner;
 import character.Player;
 
 public class Shop {
+	protected int count;
 	
+	public Shop(int count) {
+		this.count = count;
+	}
 	public void mainShop(Player p) { //메인 상점
 		while (true) {
 		    System.out.println("강화할 능력치를 선택하세요.\n"+"공격력(1)\n"+"공격속도(2)\n"+"체력(3)\n"+"Manu(4)");
@@ -43,8 +47,7 @@ public class Shop {
 			int[] enhancementLevel = new int[10];
 			for(int i=0; i<enhancementLevel.length; i++) {
 				enhancementLevel[i] = i+1;
-			}
-			int count = 1;
+			}			
 			
 			if(count==11) {
 				System.out.println("더이상 강화할 수 없습니다.");
@@ -86,8 +89,7 @@ public class Shop {
 			int[] enhancementLevel = new int[10];
 			for(int i=0; i<enhancementLevel.length; i++) {
 				enhancementLevel[i] = i+1;
-			}
-			int count = 1;
+			}			
 			
 			if(count==11) {
 				System.out.println("더이상 강화할 수 없습니다.");
@@ -129,8 +131,7 @@ public class Shop {
 			int[] enhancementLevel = new int[10];
 			for(int i=0; i<enhancementLevel.length; i++) {
 				enhancementLevel[i] = i+1;
-			}
-			int count = 1;
+			}			
 			
 			if(count==11) {
 				System.out.println("더이상 강화할 수 없습니다.");
@@ -142,7 +143,7 @@ public class Shop {
 					if(p.getMoney() >= 0) {
 						p.hpEnhancement();
 						count++;						
-						System.out.println("강화 성공!!\n"+"현재 체력 강화 수치 : "+count+"현재 체력 : "+p.getHp());
+						System.out.println("강화 성공!!\n"+"현재 체력 강화 수치 : "+count+"현재 체력 : "+p.getMaxHp());
 						System.out.println();
 					}
 					else {						
