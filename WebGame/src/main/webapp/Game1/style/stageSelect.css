@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.tempbox{
+	width:1250px; height:370px;
+	margin: auto;
+}
+
+.stage{
+	text-align:center;
+	font-size:80px;	
+}
+
+.stbox1{	
+	float: left; width: 42%;
+	font-size:200px;
+	text-align:right;
+	margin: 0px 0px 50px 0px;	
+	color: black;
+	margin: 50px 0px;
+}
+
+.stbox2{
+	float: left; width: 15.5%;
+	font-size:150px;
+	text-align: center;
+	margin: 0px 0px 50px 0px;	
+	color: mediumblue;
+	margin: 90px 0px;
+}
+
+.stbox3{	
+	float: right; width: 42%;
+	font-size:200px;
+	text-align: left;
+	margin: 0px 0px 50px 0px;	
+	color: black;
+	margin: 50px 0px;
+}
+
+.battleStartbox{	
+	font-size: 100px;	
+	text-align: center;
+	margin: 10px 0px 0px 550px;
+	width: 200px;
+	transition: all 0.3s;
+}
+
+.battleStartbox:hover{
+	transform: scale(1.1);
+}
+
+.battleStart{
+	text-decoration: none;
+	color: black;
+}
+
+.battleStart:hover{
+	 color: white;	 
+}

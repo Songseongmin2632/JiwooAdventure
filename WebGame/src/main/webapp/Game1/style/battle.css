@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+.root2{
+	background-image: url('https://i.pinimg.com/originals/7f/92/2a/7f922a9739cefc3f0a5f3a8698b0ae18.png');
+	width: 1300px;
+	height: 900px;
+	margin: 50px auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.hp1{
+	border: 1px solid black;
+	width: 200px;	
+	background:linear-gradient(to left,red,white);
+	position: relative;
+	top: 230px;
+	left: 160px;
+}
+
+.mp1{
+	border: 1px solid black;
+	width: 200px;	
+	background:linear-gradient(to left,blue,white);
+	position: relative;
+	top: 230px;
+	left: 160px;
+}
+
+.hp2{
+	border: 1px solid black;
+	width: 200px;	
+	background:linear-gradient(to left,red,white);
+	position: relative;
+	top: 270px;
+	left: 810px;
+}
+
+.char{	
+	position:relative;
+	top:230px; 
+	left:170px
+}
+
+.monster{
+	width:150px;
+	position:relative;
+	top:90px;
+	left:170px
+}
+
+.skillInterface{
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	border-bottom: 3px solid black;
+	border-left: none;
+	border-radius: 0px 30px 30px 0px;
+	width: 680px;
+	height: 110px;
+	position:relative;
+	top:140px;
+	left:255px;
+	background-color:gray;
+}
+
+.charInterface{
+	width:200px;
+	position:relative;
+	bottom:40px;
+	left:180px;
+	/*border: 1px solid black;*/
+}
+
+.skill1{
+	border: 3px solid white;
+	width: 75px;
+}
+
+.skill2{
+	border: 3px solid white;
+	position:relative;
+	bottom:60px;
+	left:230px;
+}
+
+.skill3{
+	border: 3px solid white;
+	width: 75px;
+	position:relative;
+	bottom:60px;
+	left:270px;
+}
+
+.skill4{
+	border: 3px solid white;
+	width:75px;
+	position:relative; 
+	left:310px;
+	bottom:60px
+}
+
+.skillbox1{
+	width: 81px;
+	height: 80px;
+	border: 1px solid black;
+	position: relative;
+	bottom:60px;
+	left:190px;
+	font-weight: 800;
+}
+
+.skillbox2{
+	width: 81px;
+	height: 80px;
+	border: 1px solid black;
+	position: relative;
+	bottom:145px;
+	left:525px;
+	font-weight: 800;
+}
+
+.skillbox3{
+	width: 81px;
+	height: 80px;
+	border: 1px solid black;
+	position: relative;
+	bottom:145px;
+	left:475px;
+	font-weight: 800;
+}
+
+.skillbox4{
+	width: 81px;
+	height: 80px;
+	border: 1px solid black;
+	position: relative;
+	bottom:145px;
+	left:515px;
+	font-weight: 800;
+}
