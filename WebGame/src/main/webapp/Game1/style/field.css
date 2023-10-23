@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+.root-mainScreen{
+	background-image: url('../images/메인화면.png');
+	width: 1300px;
+	height: 900px;
+	margin: auto;
+	background-repeat: no-repeat;
+	background-size: 120% auto;
+}
+
 .menuname{
 	border: 1px solid black;
 	font-size: 50px;

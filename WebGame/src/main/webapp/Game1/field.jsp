@@ -9,25 +9,29 @@
 	<link rel="stylesheet" href="style/field.css">
 </head>
 <body>
-	<div class="root">
+	<div class="root-mainScreen">
 		<h1 class="gamenameBox">
 			<a class="gamename" href="field.jsp">
-			Jiwoo<br />Adventure</a>
+			Jiwoo<br />Adventure</a>						
 		</h1>
-		<div class="menu1">
-			<a class="menuDesign2" href="stageSelect.jsp">전투</a>
+		<div class="charBox">
+			<div class="mainCharacter">
+			
+			</div>
 		</div>
-		<div class="menu2">
-			<a class="menuDesign3" href="information.jsp">캐릭터정보</a>
-		</div>
-		<div class="menu2">
-			<a class="menuDesign4" href="shop.jsp">상점</a>
-		</div>
-		<div class="menu2">
-			<a class="menuDesign5" href="index.jsp">처음으로</a>
-		</div>
-		<div class="menu2">
-			<a class="menuDesign6" href="end.jsp">종료</a>
+		<div class="menuBox">
+			<div class="menu-main">
+			
+			</div>
+			<div class="menu-shop">
+			
+			</div>
+			<div class="menu-information">
+			
+			</div>
+			<div class="menu-battle">
+			
+			</div>
 		</div>
 	</div>
 </body>

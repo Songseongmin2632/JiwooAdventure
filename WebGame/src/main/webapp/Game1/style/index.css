@@ -1,10 +1,19 @@
 @charset "UTF-8";
 
 
-.start1{		
-	margin: 450px 0px 50px 30px;
+.startBox{		
+	width: 380px;
+    margin-top: 400px;
 }
 
-.start2{
-	margin: 0px 0px 0px 30px;
+.firstBox{
+	width: 320px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.secondBox{
+	width: 320px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
