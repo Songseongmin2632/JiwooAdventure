@@ -10,28 +10,25 @@
 </head>
 <body>
 	<div class="root-mainScreen">
-		<h1 class="gamenameBox">
-			<a class="gamename" href="field.jsp">
-			Jiwoo<br />Adventure</a>						
-		</h1>
-		<div class="charBox">
-			<div class="mainCharacter">
-			
+		<div class="fieldInfo">
+			<div class="firstLine">
+				<span class="level">Lv</span>
+				<span class="levelInfo">1</span>
+				<span class="levelBox">0%</span>
+			</div>
+			<div class="secondLine">
+				<img src="" class="moneyImage" />
+				<div class="money">0</div>
 			</div>
 		</div>
+		<div class="charBox">			
+			<img src="images/메인캐릭터.png" class="mainCharacter"/>			
+		</div>
 		<div class="menuBox">
-			<div class="menu-main">
-			
-			</div>
-			<div class="menu-shop">
-			
-			</div>
-			<div class="menu-information">
-			
-			</div>
-			<div class="menu-battle">
-			
-			</div>
+			<img src="images/처음으로.png" class="menu-main"/>
+			<img src="images/상점.png" class="menu-shop"/>
+			<img src="images/플레이어정보.png" class="menu-information"/>
+			<img src="images/전투1.png" class="menu-battle"/>
 		</div>
 	</div>
 </body>

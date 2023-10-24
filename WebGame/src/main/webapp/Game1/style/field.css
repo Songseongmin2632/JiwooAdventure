@@ -9,166 +9,92 @@
 	background-size: 120% auto;
 }
 
-.menuname{
-	border: 1px solid black;
-	font-size: 50px;
-	color:white;
-	text-align: center;
-	margin: 30px 0px 60px 0px;
-	background-color: black;
+.fieldInfo{
+	border: 2px solid aquamarine;
+    width: 400px;
+    height: 168px;
 }
 
-.menubox{ 	
-  	font-size: 50px;
-  	text-align: center;
-  	width: 300px;
-  	margin: 0px auto 30px;  	
+.firstLine{
+	width: 350px;
+    border: 3px solid black;
+    height: 60px;
+    margin: 10px 0px 10px 20px;
+    background-color: aliceblue;
 }
 
-img{
-	max-width: 100%;
+.level{
+	width: 71px;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
 }
 
-.temp1{
-	width: 200px;
-	position: relative;
-	top: 20px;
-	left: 100px;
+.levelInfo{
+	width: 50px;
+    display: inline-block;
+    height: 50px;
+    font-size: 40px;
+    text-align: left;
 }
 
-.temp1:hover{
-	transform: scale(1.1);
+.levelBox{
+	border: 2px solid black;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
 }
 
-.temp2{
-	width: 200px;
-	position: relative;
-	top: 100px;
-	left: 200px;
+.secondLine{
+	border: 2px solid black;
+    width: 300px;
+    margin: 20px 0px 0px 20px;
+    height: 50px;
 }
 
-.temp2:hover{
-	transform: scale(1.1);
-}
-
-.temp3{
-	width: 220px;
-	position: relative;
-	bottom: 100px;
-	left: 850px;
-}
-
-.temp3:hover{
-	transform: scale(1.1);
-}
-
-.temp4{
-	width: 220px;
-	position: relative;
-	bottom: 600px;
-	left: 950px;
-}
-
-.temp4:hover{
-	transform: scale(1.1);
-}
-
-.a{
-	border: 1px solid black;
-	border-radius: 10px;
+.money{
 	font-size: 40px;
-	text-align: center;
-	width: 100px;
-	color: white;
-	background-color: black;
-	position: relative;
-	left: 100px;
 }
 
-.menu1{
-	margin: 100px auto 30px;
-	text-align: center;
-	
+.charBox{
+	/*border: 1px solid black;*/
+	height: 440px;
 }
 
-.menu2{
-	margin: 0px auto 30px;
-	text-align: center;
-	
+.mainCharacter{
+	margin-left: 470px;
+    margin-top: 31px;
 }
 
-.menuDesign2{
-	padding: 5px 80px;
-	border: 1px solid black;
-	color:white;
-	background: radial-gradient(blue, white);
-	text-decoration: none;
-	font-size: 40px;	
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+.menuBox{
+	width: 1200px;
+    border: 0px solid black;
+    height: 165px;
+    border-radius: 0px 0px 40px 40px;
+    background: linear-gradient(0deg, lightblue, transparent);
+    margin: 65px auto 0px;
 }
 
-.menuDesign2:hover{
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.menu-main{
+	width: 183px;
+    margin-bottom: 33px;
+    margin-left: 40px;
 }
 
-.menuDesign3{
-	padding: 5px 80px;
-	border: 1px solid black;
-	color:white;
-	background: radial-gradient(green, white);
-	text-decoration: none;
-	font-size: 40px;	
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+.menu-shop{
+	width: 150px;
+    margin-bottom: 47px;
+    margin-left: 47px;
 }
 
-.menuDesign3:hover{
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.menu-information{
+	margin-left: 293px;
+    width: 215px;
+    margin-bottom: 65px;
 }
 
-.menuDesign4{
-	padding: 5px 80px;
-	border: 1px solid black;
-	color:white;
-	background: radial-gradient(gold, white);
-	text-decoration: none;
-	font-size: 40px;	
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+.menu-battle{
+	width: 110px;
+    margin-bottom: 60px;
+    margin-left: 75px;
 }
-
-.menuDesign4:hover{
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.menuDesign5{
-	padding: 5px 80px;
-	border: 1px solid black;
-	color:white;
-	background: radial-gradient(red, white);
-	text-decoration: none;
-	font-size: 40px;	
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.menuDesign5:hover{
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
-.menuDesign6{
-	padding: 5px 80px;
-	border: 1px solid black;
-	color:white;
-	background: radial-gradient(black, white);
-	text-decoration: none;
-	font-size: 40px;	
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.menuDesign6:hover{
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
-
