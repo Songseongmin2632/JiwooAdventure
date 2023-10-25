@@ -12,12 +12,12 @@
 	<div class="root-mainScreen">
 		<div class="fieldInfo">
 			<div class="firstLine">
-				<span class="level">Lv</span>
-				<span class="levelInfo">1</span>
-				<span class="levelBox">0%</span>
+				<div class="level">Lv</div>
+				<div class="levelInfo">1</div>
+				<div class="levelBox">0%</div>
 			</div>
 			<div class="secondLine">
-				<img src="" class="moneyImage" />
+				<img src="images/소지금.png" class="moneyImage" />
 				<div class="money">0</div>
 			</div>
 		</div>
@@ -25,10 +25,18 @@
 			<img src="images/메인캐릭터.png" class="mainCharacter"/>			
 		</div>
 		<div class="menuBox">
-			<img src="images/처음으로.png" class="menu-main"/>
-			<img src="images/상점.png" class="menu-shop"/>
-			<img src="images/플레이어정보.png" class="menu-information"/>
-			<img src="images/전투1.png" class="menu-battle"/>
+			<a href="index.jsp">
+				<img src="images/처음으로.png" class="menu-main"/>
+			</a>
+			<a href="shop.jsp">
+				<img src="images/상점.png" class="menu-shop"/>
+			</a>	
+			<a href="information.jsp">
+				<img src="images/플레이어정보.png" class="menu-information"/>
+			</a>
+			<a href="stageSelect.jsp">
+				<img src="images/전투1.png" class="menu-battle"/>
+			</a>
 		</div>
 	</div>
 </body>
